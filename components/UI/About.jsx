@@ -22,7 +22,9 @@ const About = () => {
         <Row>
           {/* <Col lg="6" className={`${classes.about__content}`}> */}
           {/* <SectionSubtitle subtitle="About me" /> */}
-          <h5 className="mb-4" style={{ color: "#808dad" }}>// about myself</h5>
+          <h5 className="mb-4" style={{ color: "#808dad" }}>
+            about myself
+          </h5>
           {/* <h3 className="mt-4">I&apos;m here</h3>
           <h3 className="mb-4">to help your next project</h3> */}
           <h5 className={`${classes.about__self}`} >
