@@ -18,12 +18,14 @@ const Tools = () => {
     slidesToShow: 1,
     slidesToScroll: 1,
   };
+  const tools = "// i like to use these favorite tools right now...";
+  
   return (
     <section id="tools">
       <Container>
         <StartDiv title="tools" type="section" />
         <Row>
-          <h5 className="mb-4" style={{ color: "#808dad", paddingBottom:"40px" }}>// i like to use these favorite tools right now...</h5>
+          <h5 className="mb-4" style={{ color: "#808dad", paddingBottom:"40px" }}>{tools}</h5>
 
           <Col lg="4" md="4" className={`${classes.testimonial__back}`}>
           <h4 className="mb-4" style={{ color: "#01d293" }}>Back-End</h4>

@@ -16,6 +16,8 @@ import Qualification from "./Qualification";
 
 const About = () => {
   const myself ="// about myself";
+  const moredetails = "// Keep reading for more details... ⬇️";
+  const Seeitinaction = "// See it in action";
   return (
     <section id="about">
       <Container>
@@ -31,7 +33,7 @@ const About = () => {
           <h5 className={`${classes.about__self}`} >
             Recent computer science and engineering graduate from American International University Bangladesh (AIUB) with good academic standing
             and strong professional experience.
-            I've developed my abilities in software testing and web development throughout the Computer Science program.
+            I have developed my abilities in software testing and web development throughout the Computer Science program.
             I have the ability to prioritize tasks and manage projects expertly.
             I am a capable and reliable problem-solver.
           </h5>
@@ -70,7 +72,7 @@ const About = () => {
             </div>
           </div> */}
 
-          <h5 className="mb-4" style={{ color: "#808dad" }}>// Keep reading for more details... ⬇️</h5>
+          <h5 className="mb-4" style={{ color: "#808dad" }}>{moredetails}</h5>
           <Qualification
             institute="0. Comilla Modern High School"
             degree="Secondary School Certificate (SSC)"
@@ -91,7 +93,7 @@ const About = () => {
             Completed my thesis with the topic “Smart Virtual Assistant for Student Portal (Machine Learning)” 
             under the supervision of Dr. Abdullah – Al-Zubair, Assistant Professor."
           />
-          <h5 className="mb-4" style={{ color: "#808dad" }}>// See it in action</h5>
+          <h5 className="mb-4" style={{ color: "#808dad" }}>{Seeitinaction}</h5>
           <Link className={`${classes.about__link}`} href="https://drive.google.com/file/d/1c6GrAfrnMsSTgXtESszRmzy5lIff1JWr/view?usp=share_link" target="_blank">
             <h5 className="mb-4 ri-link"> See the paper..</h5>
           </Link>

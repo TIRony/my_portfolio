@@ -10,6 +10,11 @@ import StartDiv from "./StartDiv";
 
 
 const Contact = () => {
+  const contactme = "// feel free to contact me";
+  const social = "// social..";
+  const address = "// address..";
+  const reachme = "// or reach me here..";
+  
   return (
     <section id="contact" className={`${classes.contact}`}>
       <Container>
@@ -17,7 +22,7 @@ const Contact = () => {
         <Row>
           <Col lg="6" md="6">
             {/* <SectionSubtitle subtitle="Contact me" /> */}
-            <h5 className="mb-4" style={{ color: "#808dad" }}>// feel free to contact me</h5>
+            <h5 className="mb-4" style={{ color: "#808dad" }}>{contactme}</h5>
             <h2 className="mt-4 mb-4">Get in touch... 📡</h2>
             <h5 className={`${classes.about__self}`} >
               Want to reach me??
@@ -26,7 +31,7 @@ const Contact = () => {
               Send me an email and Thank you for your time and consideration
             </h5>
 
-            <h5 className="mb-4" style={{ color: "#808dad", paddingTop: "40px" }}>// social..</h5>
+            <h5 className="mb-4" style={{ color: "#808dad", paddingTop: "40px" }}>{social}</h5>
 
             <div className={`${classes.social__links}`}>
               {/* <Link href="#">
@@ -46,7 +51,7 @@ const Contact = () => {
               </Link>
             </div>
 
-            <h5 className="mb-4" style={{ color: "#808dad", paddingTop: "40px" }}>// address..</h5>
+            <h5 className="mb-4" style={{ color: "#808dad", paddingTop: "40px" }}>{address}</h5>
 
             <ul className={`${classes.contact__info__list}`}>
               <li className={`${classes.info__item}`}>
@@ -71,7 +76,7 @@ const Contact = () => {
           </Col>
 
           <Col lg="6" md="8">
-            <h5 className="mb-4" style={{ color: "#808dad", paddingTop: "20px" }}>// or reach me here..</h5>
+            <h5 className="mb-4" style={{ color: "#808dad", paddingTop: "20px" }}>{reachme}</h5>
 
             
                 <Form />
