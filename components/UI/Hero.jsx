@@ -23,9 +23,9 @@ const Hero = () => {
               
               </p>
               <div className="mt-5">
-                <button className="primary__btn">
-                  <Link href="https://drive.google.com/file/d/1ZQ2lhjunhkvjy9q1lLhJu91uX3-12T3V/view?usp=share_link" target="_blank">Resume</Link>
-                </button>
+                {/* <button className="primary__btn"> */}
+                  <Link href="https://drive.google.com/file/d/1ZQ2lhjunhkvjy9q1lLhJu91uX3-12T3V/view?usp=share_link" target="_blank" style={{textDecoration:"none", color:"#01d293", fontSize:"24px", fontWeight:"500"}}>{"Resume( ) 📃"}</Link>
+                {/* </button> */}
 
                 {/* <button className="secondary__btn">
                   <Link href="#">Download CV</Link>
