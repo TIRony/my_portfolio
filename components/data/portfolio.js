@@ -17,7 +17,7 @@ const portfolio = [
     category: "Projects",
     keyword: ["NEXT", "NODE", "EXPRESS", "MYSQL", "BOOTSTRAP"],
     liveUrl: "/",
-    gitUrl: "null",
+    gitUrl: "https://github.com/TIRony/my_portfolio",
     description: "It is a Single Page Application (SPA). I make it to present myself to others. It's fast, easy to update and mobile responsive.",
   },
 

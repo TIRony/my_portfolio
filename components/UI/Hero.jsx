@@ -24,7 +24,7 @@ const Hero = () => {
               </p>
               <div className="mt-5">
                 <button className="primary__btn">
-                  <Link href="#">Resume</Link>
+                  <Link href="https://drive.google.com/file/d/1ZQ2lhjunhkvjy9q1lLhJu91uX3-12T3V/view?usp=share_link" target="_blank">Resume</Link>
                 </button>
 
                 {/* <button className="secondary__btn">
