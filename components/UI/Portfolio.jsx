@@ -32,6 +32,8 @@ const Portfolio = () => {
   }, [filter]);
 
   const active = `${classes.tab__btn__active}`;
+  const works = "// some of my distinguished works";
+  const works2 = "// some of my academic works";
 
   return (
     <section id="portfolio">
@@ -40,7 +42,7 @@ const Portfolio = () => {
         <Row>
           <Col lg="6" md="6" className="mb-5">
             {/* <SectionSubtitle subtitle=" My portfolio" /> */}
-            <h5 className="mb-4" style={{ color: "#808dad" }}>// some of my distinguished works</h5>
+            <h5 className="mb-4" style={{ color: "#808dad" }}>{works}</h5>
           </Col>
 
           <Col lg="6" md="6">
@@ -72,7 +74,7 @@ const Portfolio = () => {
         <Row>
           <Col lg="6" md="6" className="mb-5">
             {/* <SectionSubtitle subtitle=" My portfolio" /> */}
-            <h5 className="mb-4" style={{ color: "#808dad" }}>// some of my academic works</h5>
+            <h5 className="mb-4" style={{ color: "#808dad" }}>{works2}</h5>
           </Col>
 
           <Col lg="6" md="6">
