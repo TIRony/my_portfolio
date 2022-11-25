@@ -1,0 +1,36 @@
+.start__div {
+  color: #01d293 !important;
+  font-weight: 500;
+  margin-left: 0px;
+  position: relative;
+  margin-bottom: 80px;
+}
+
+.about__self {
+  font-weight: 300;
+  margin-left: 0px;
+  position: relative;
+  margin-bottom: 40px;
+}
+
+.start__section {
+  color: #01d293 !important;
+  font-weight: 500;
+  margin-left: 0px;
+  position: relative;
+  margin-bottom: 80px;
+}
+
+.end__div {
+  color: #01d293 !important;
+  font-weight: 500;
+  margin-left: 0px;
+  position: relative;
+  margin-top: 60px;
+}
+
+@media only screen and (max-width: 992px) {
+  .start__section {
+    font-size: 0.3rem;
+  }
+}
