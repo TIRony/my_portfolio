@@ -15,6 +15,7 @@ import EndDiv from "./EndDiv";
 import Qualification from "./Qualification";
 
 const About = () => {
+  const myself ="// about myself";
   return (
     <section id="about">
       <Container>
@@ -23,7 +24,7 @@ const About = () => {
           {/* <Col lg="6" className={`${classes.about__content}`}> */}
           {/* <SectionSubtitle subtitle="About me" /> */}
           <h5 className="mb-4" style={{ color: "#808dad" }}>
-            about myself
+            {myself}
           </h5>
           {/* <h3 className="mt-4">I&apos;m here</h3>
           <h3 className="mb-4">to help your next project</h3> */}
