@@ -6,7 +6,7 @@ const portfolio = [
     category: "Projects",
     keyword: ["REACT", "NODE", "EXPRESS", "MONGODB", "ANT DESIGN", "REDUX", "HEROKU", "NETLIFY"],
     liveUrl: "https://hawk-tech.netlify.app/",
-    gitUrl: "https://github.com/TIRony/eCommerce_Website-MERN",
+    gitUrl: "null",
     description: "It's a Full-stack e-Commerce web application. The goal of this project is to build an eCommerce website that is fast, easy to update, and mobile responsive. And I'm trying to make it a single-page application for better use.",
   },
 
@@ -17,7 +17,7 @@ const portfolio = [
     category: "Projects",
     keyword: ["NEXT", "NODE", "EXPRESS", "MYSQL", "BOOTSTRAP"],
     liveUrl: "/",
-    gitUrl: "https://github.com/TIRony/my_portfolio",
+    gitUrl: "null",
     description: "It is a Single Page Application (SPA). I make it to present myself to others. It's fast, easy to update and mobile responsive.",
   },
 
