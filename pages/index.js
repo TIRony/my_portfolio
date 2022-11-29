@@ -6,7 +6,7 @@ import About from "../components/UI/About";
 import Portfolio from "../components/UI/Portfolio";
 import Tools from "../components/UI/Tools";
 import Contact from "../components/UI/Contact";
-import portfolioPC from "../public/images/Portfolio.png";
+import portfolioPC from "../public/images/Portfolio.PNG";
 
 export default function Home() {
   return (
