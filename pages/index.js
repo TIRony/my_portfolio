@@ -6,7 +6,6 @@ import About from "../components/UI/About";
 import Portfolio from "../components/UI/Portfolio";
 import Tools from "../components/UI/Tools";
 import Contact from "../components/UI/Contact";
-import portfolioPC from "../public/images/Portfolio.PNG";
 
 export default function Home() {
   return (
@@ -34,7 +33,7 @@ export default function Home() {
         <meta property="og:url" content="https://tirony.netlify.app/" />
         <meta property="og:title" content="Taraqul Islam Rony 👨‍💻 | Portfolio 📃" />
         <meta property="og:description" content="Online software development portfolio." />
-        <meta property="og:image" content={portfolioPC} />
+        <meta property="og:image" content="https://res.cloudinary.com/hawktech-cloud/image/upload/v1669712926/Portfolio_nilyjm.png" />
 
         {/* <!-- Twitter --> */}
         <meta property="twitter:card" content="summary_large_image" />
@@ -42,7 +41,7 @@ export default function Home() {
         <meta property="twitter:url" content="https://metatags.io/" />
         <meta property="twitter:title" content="Taraqul Islam Rony 👨‍💻 | Portfolio 📃" />
         <meta property="twitter:description" content="Online software development portfolio." />
-        <meta property="twitter:image" content={portfolioPC} />
+        <meta property="twitter:image" content="https://res.cloudinary.com/hawktech-cloud/image/upload/v1669712926/Portfolio_nilyjm.png" />
 
       </Head>
       <Fragment>
