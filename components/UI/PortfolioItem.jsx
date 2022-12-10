@@ -57,7 +57,8 @@ const PortfolioItem = (props) => {
   return (
     <div className={`${classes.portfolio__item}`}>
       <div className="bg-transparent">
-        <h5 className="mb-4">{title}</h5>
+        <h5 style={{ color: "#808dad" }}>{seeitinaction}</h5>
+        <h3 className="mb-4">{title}</h3>
         <h5 style={{ color: "#808dad" }}>{des}</h5>
         <h5 style={{ color: "white" }}>{description}</h5>
         <h5 style={{ color: "#808dad" }}>{stack}</h5>
@@ -68,16 +69,13 @@ const PortfolioItem = (props) => {
         ))}
       </div>
 
-      <h5 style={{ color: "#808dad" }}>{seeitinaction}</h5>
-
-      <div className={`${classes.portfolio__img}`}>
-        <Image alt="portfolio" src={img} width="3000" height="2000" />
-      </div>
-
       {liveSite()}
 
       {github()}
 
+      <div className={`${classes.portfolio__img}`}>
+        <Image alt="portfolio" src={img} width="3000" height="2000" />
+      </div>
     </div>
   );
 };

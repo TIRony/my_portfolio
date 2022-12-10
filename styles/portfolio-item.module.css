@@ -12,6 +12,11 @@
   margin-bottom: 20px;
   background: transparent;
 }
+.portfolio__item h3 {
+  color: #01d293;
+  margin-bottom: 20px;
+  background: transparent;
+}
 
 .portfolio__img {
   margin-top: 30px;
@@ -37,14 +42,14 @@
 }
 
 .portfolio__live {
-  margin-left: -100px;
+  /* margin-left: -100px; */
   margin-top: 30px;
-  display: none;
+  /* display: none; */
 }
 
 .portfolio__item:hover .portfolio__live {
   margin-left: 0;
-  display: block;
+  /* display: block; */
 }
 
 .about__link {

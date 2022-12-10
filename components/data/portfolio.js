@@ -1,3 +1,6 @@
+// https://github.com/TIRony/hawk-tech
+// https://github.com/TIRony/my_portfolio
+
 const portfolio = [
   {
     id: "01",
