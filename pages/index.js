@@ -25,13 +25,13 @@ export default function Home() {
 
         {/* <!-- Primary Meta Tags --> */}
         <title>Taraqul Islam Rony 👨‍💻 | Portfolio 📃</title>
-        <meta name="title" content="Taraqul Islam Rony 👨‍💻 | Portfolio 📃" />
+        <meta name="title" content="TIR 👨‍💻 | Portfolio 📃" />
         <meta name="description" content="Online software development portfolio." />
 
         {/* <!-- Open Graph / Facebook --> */}
         <meta property="og:type" content="website" />
         <meta property="og:url" content="https://tirony.netlify.app/" />
-        <meta property="og:title" content="Taraqul Islam Rony 👨‍💻 | Portfolio 📃" />
+        <meta property="og:title" content="TIR 👨‍💻 | Portfolio 📃" />
         <meta property="og:description" content="Online software development portfolio." />
         <meta property="og:image" content="https://res.cloudinary.com/hawktech-cloud/image/upload/v1669712926/Portfolio_nilyjm.png" />
 
@@ -39,7 +39,7 @@ export default function Home() {
         <meta property="twitter:card" content="summary_large_image" />
         <meta data-react-helmet="true" name="twitter:creator" content="@dariansampare"></meta>
         <meta property="twitter:url" content="https://metatags.io/" />
-        <meta property="twitter:title" content="Taraqul Islam Rony 👨‍💻 | Portfolio 📃" />
+        <meta property="twitter:title" content="TIR 👨‍💻 | Portfolio 📃" />
         <meta property="twitter:description" content="Online software development portfolio." />
         <meta property="twitter:image" content="https://res.cloudinary.com/hawktech-cloud/image/upload/v1669712926/Portfolio_nilyjm.png" />
 
