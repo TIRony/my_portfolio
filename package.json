@@ -12,6 +12,7 @@
     "@chakra-ui/react": "^2.4.1",
     "@emotion/react": "^11.10.5",
     "@emotion/styled": "^11.10.5",
+    "axios": "1.13.1",
     "bootstrap": "^5.2.3",
     "eslint": "8.28.0",
     "eslint-config-next": "13.0.4",
@@ -25,6 +26,8 @@
     "reactstrap": "^9.1.5",
     "remixicon": "^2.5.0",
     "sharp": "^0.33.3",
-    "slick-carousel": "^1.8.1"
+    "slick-carousel": "^1.8.1",
+    "socket.io": "4.8.1",
+    "socket.io-client": "4.8.1"
   }
 }
